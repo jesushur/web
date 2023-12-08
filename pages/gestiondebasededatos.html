@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color: orangered;">
+   <h1>GESTIÓN DE BASE DE DATOS</h1>
+    <b><p>1. INTRODUCCIÓN
+El análisis de la información de la actividad de una empresa influye
+directamente en las decisiones que sobre su gestión se toman, y por
+tanto influye en la viabilidad de la empresa.
+La información obtenida debe ser adecuada, oportuna y útil.
+En esta unidad estudiaremos distintos modos de gestión de la
+información de una empresa u organismo.
+Los datos son registros de hechos aislados. Cuando estos datos son
+organizados de forma que se almacenan teniendo en cuenta la relación
+entre ellos, es cuando podemos hablar de información.
+Para tener una gestión eficaz de la información, se organizan los datos
+mediante Bases de Datos. Éstas aparecen como una evolución de los
+Sistemas de Archivos. No obstante, aún es necesario entender el
+funcionamiento de estos Sistemas de Archivos para conocer las
+limitaciones que presentaban y que las Bases de Datos han solucionado.
+Dentro de las Bases de Datos existen varios modelos, siendo el más
+extendido el Modelo de Datos Relacional y al que dedicaremos
+fundamentalmente esta asignatura.</p></b>
+<b><p>La información en estos dispositivos está estructurada en unidades
+llamadas ficheros.
+Debemos conocer la terminología relacionada con los ficheros para
+entender los mismos. Así, algunos conceptos básicos son:
+Datos: Son los hechos o elementos de la realidad sobre la que se
+quiere almacenar información.
+Campo: Es un carácter o conjunto de caracteres que se almacena
+que tiene un significado específico. Es la unidad mínima de
+información a tratar.
+Registro: Es un conjunto de campos que están relacionados de
+forma lógica y que sirven para describir un hecho, una
+persona, un objeto… Es la unidad mínima de tratamiento
+en los ficheros. Es decir, cuando accedemos a los ficheros
+para almacenar información o para obtenerla, lo haremos
+en registros completos</p></b>
+<b><p>Fichero: Es un conjunto de registros relacionados.
+Los dispositivos de almacenamiento masivo podemos clasificarlos según
+la forma en que se puede acceder a la información que contienen. En
+este sentido se clasifican en:
+Dispositivos secuenciales: la información se guarda en posiciones
+consecutivas. Para acceder a un registro, debemos pasar por
+todos los anteriores. (cintas magnéticas)
+Dispositivos direccionables: En estos dispositivos la información
+se almacena en posiciones que tienen asignadas
+direcciones y a las que se puede acceder conociendo la
+misma. (discos duros)
+El acceso a un registro es el proceso que se utiliza para seleccionado.
+Este proceso está condicionado por el tipo de dispositivo de
+almacenamiento utilizado. Tenemos los siguientes tipos de acceso a
+registros:
+Secuencial: los registros se leen todos desde el principio del fichero
+hasta localizar el registro buscado.
+Directo: permite acceder al registro buscado directamente
+usando su clave.</p></b>
+<b><p>Las ventajas de este tipo de ficheros son:
+• Rapidez de acceso a registros contiguos.
+• Rapidez al añadir nuevos registros.
+• No es necesario realizar operaciones de compactación ya que no
+hay huecos.
+• Se pueden utilizar cualquier tipo de registros: de longitud fija,
+variable o indefinida
+Los inconvenientes de este tipo de organización son:
+• Para acceder al registro n hay que recorrer los n-1 registros
+anteriores
+• Para realizar una consulta, hay que crear un proceso de
+comparación del campo leído con el valor que se está buscando
+• El orden de registros es el de llegada. No se puede utilizar ningún
+otro orden lógico.
+• No se pueden eliminar registros. Para eliminarlos se marca el
+registro de forma que no se muestre pero el registro existe y ocupa
+espacio. Cada cierto tiempo hay que hacer una operación de
+“limpieza” que elimine estos registros marcados</p></b>
+<b><p>La organización de estos ficheres es muy similar a la anterior, con la
+salvedad de que los registros pueden llevar un orden distinto del
+temporal.
+Para poder implementar ese orden, cada vez que se añade un registro se
+utiliza un fichero auxiliar que permite localizar la posición del nuevo
+registro y reescribir el fichero para poder incluirlo.
+Ls ventajas son las mismas que las anteriores, pero en esta ocasió el
+añadir registros no es una operación rápida y sencilla, ya que requiere
+de un proceso de localización y reescritura usando un fichero auxiliar.
+Además se elimina la desventaja de que solo se pueda usar el orden
+temporal, ya que estos ficheros permiten establecer un orden en base a
+otro criterio.
+Para mejorar las prestaciones de este tipo de organización, surgen tres
+variantes que veremos a continuación:
+• Organización secuencial encadenada
+• Organización secuencial indexada
+• Organización secuencial indexada-encadenada</p></b>
+<b><p>Una base de datos es una recopilación organizada de información o
+datos estructurados, que normalmente se almacena de forma
+electrónica en un sistema informático. Normalmente, una base de datos
+está controlada por un sistema de gestión de bases de datos (SGBD). En
+conjunto, los datos y el SGBD, junto con las aplicaciones asociadas a
+ellos, reciben el nombre de sistema de bases de datos, abreviado
+normalmente a simplemente base de datos.
+Las ventajas que presentan las bases de datos respecto a los sistemas
+de ficheros son:
+• Control de redundancia
+• Consistencia de datos</p></b>
+   
+
+
+
+</body>
+</html>
