@@ -1,56 +1,63 @@
-*{
- background-color:black}
-
 * {
-  padding: 0;
-  margin: 0;
+  box-sizing: border-box;
 }
-p {
-  margin-bottom: 20px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-.wrapper {
-  width: 80%;
-  margin: auto;
-  overflow:hidden;
-}
-.asignaturas {
-  background-color: black;
-  padding: 35px;
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 10px;
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   color: white;
 }
-header {
-  background: rgba(0,0,0,0.5);
-  width: 100%;
-  position: fixed;
-  z-index: 10;
+nav {
+  float: left;
+  width: 10%;
+  background: #ccc;
+  padding: 5px;
 }
 
-nav {
-  float: left; /* Desplazamos el nav hacia la izquierda */
+/* Style the list inside the menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-nav ul {
-  list-style: none;
-  overflow: hidden; /* Limpiamos errores de float */
-}
-nav ul li {
+
+li {
   float: left;
-  font-family: Arial, sans-serif;
-  font-size: 20px;
 }
-nav ul li a {
-  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
-  padding: 20px;
-  color: yellow;
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
   text-decoration: none;
 }
-nav ul li:hover {
-  background: #3ead47;
+
+
+
+li a:hover {
+  background-color: #d1ede7;
+  color: black;
 }
-.contenido {
-  padding-top: 170px;
+
+article {
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: #f1f1f1;
  }
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Style the footer */
 footer {
@@ -67,3 +74,4 @@ footer {
     height: auto;
   }
 }
+
