@@ -14,9 +14,9 @@ header {
 }
 nav {
   
-  width: 50%;
-  background: #FFFF00;
-  padding: 5px;
+  width: 100%;
+  background-color:blue;
+  padding: 15px;
 }
 
 /* Style the list inside the menu */
