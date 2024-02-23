@@ -35,13 +35,13 @@ li a {
   display: block;
   color:yellow;
   padding: 14px 16px;
-  text-decoration: yes;
+  text-decoration: none;
 }
 
 
 
 li a:hover {
-  background-color:lightgreen;
+  background-color:red;
   color: black;
 }
 
@@ -61,7 +61,7 @@ section:after {
 
 /* Style the footer */
 footer {
-  background-color:lightgrey;
+  background-color:grey;
   padding: 10px;
   text-align: center;
   color: lightblue;
