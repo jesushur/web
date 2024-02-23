@@ -6,10 +6,10 @@ body {
 }
 /* Style the header */
 header {
-  background-color: #666;
-  padding: 10px;
+  background-color:black;
+  padding: 100px;
   text-align: center;
-  font-size: 35px;
+  font-size: 60px;
   color:lightblue;
 }
 nav {
