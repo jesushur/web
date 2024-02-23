@@ -21,7 +21,7 @@ nav {
 
 /* Style the list inside the menu */
 ul {
-  list-style-type: yes;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
