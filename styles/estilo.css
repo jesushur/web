@@ -74,6 +74,9 @@ footer {
     height: auto;
   }
 }
-
+* {
+  background-image:../images/image1.jpg;
+}
+  
 
 
