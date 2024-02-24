@@ -24,6 +24,9 @@ nav {
   padding: 15px;
   font-size:20px;
 }
+nav:hover{
+  background:rosybrown;
+}
 /* Estilo de la lista dentro del menu */
 ul {
   list-style-type: none;
