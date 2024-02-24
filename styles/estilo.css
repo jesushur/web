@@ -3,7 +3,10 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color:black;
+  background-image: url("../images/fondoredes.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
 }
 /* Estilo de cabecera */
 header {
