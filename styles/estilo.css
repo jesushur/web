@@ -68,7 +68,7 @@ footer {
   color: lightblue;
 }
 /*Tamaño de las imagenes*/
-img {
+.img {
    width: 500px;
   height: 300px;
 }
