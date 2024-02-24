@@ -44,26 +44,25 @@ li a {
   padding: 20px 20px;
   text-decoration: none;
 }
-li a:hover {
+li a:hover{
   background-color:white;
-  color: black;
+  color:black;
 }
-article {
-  float: left;
-  padding: 20px;
-  width: 90%;
-  background-color: #f1f1f1;
+article{
+  float:left;
+  padding:20px;
+  width:90%;
+  background-color:#f1f1f1;
  }
 /* Clear floats after the columns */
-section:after {
-  content: "";
+section:after{
   display: table;
   clear: both;
 }
 /* Style the footer */
 footer {
   background-color:grey;
-  padding: 0;
+  padding:0;
   text-align: center;
   color: lightblue;
 }
