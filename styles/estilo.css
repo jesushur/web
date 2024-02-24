@@ -8,7 +8,7 @@ body {
 /* Estilo de cabecera */
 header {
   background-color: #B4B4B8;
-  padding: 10px;
+  padding: 0;
   text-align: center;
   font-size: 60px;
   color:yellow;
@@ -30,12 +30,12 @@ ul {
 }
 
 li {
-  float: left;
+  float: inline-start;
 }
 li a {
   display: flex;
   color:grey;
-  padding: 10px 10px;
+  padding: 20px 20px;
   text-decoration: none;
 }
 
