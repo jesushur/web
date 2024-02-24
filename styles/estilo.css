@@ -8,9 +8,10 @@ body {
 /* Estilo de cabecera */
 header {
   background-color: #B4B4B8;
-  padding: 0;
+  padding: 50px;
+  margin:50px;
   text-align: center;
-  font-size: 60px;
+  font-size: 80px;
   color:yellow;
 }
 nav {
