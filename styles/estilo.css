@@ -3,28 +3,29 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color:black;
 }
-/* Style the header */
+/* Estilo de cabecera */
 header {
   background-color: #B4B4B8;
   padding: 10px;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   color:yellow;
 }
 nav {
   
-  width: 50%;
+  width: 100%;
   background-color:black;
-  padding: 0;
+  padding: 15px;
 }
 
-/* Style the list inside the menu */
+/* Estilo de la lista dentro del menu */
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: auto;
+  margin: 10px;
+  padding: 10px;
+  overflow: scroll;
   background-color:black;
 }
 
