@@ -25,6 +25,9 @@ header {
   font-size: 60px;
   color:black;
 }
+h1{
+  color: white;
+}
 nav { 
   display:block;
   width: 100%;
