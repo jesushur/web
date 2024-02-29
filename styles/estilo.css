@@ -9,7 +9,11 @@ body {
   background-position: center;
 }
 .bodyisop{
-  background-image: url("../images/
+  background-image: url("../images/isop2.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+}
 /* Estilo de cabecera */
 header {
   background-color:none;
